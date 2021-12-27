@@ -1,0 +1,16 @@
+<div class="col-sm-4 col-md-4 col-lg-4" style="background-color:rgb(227, 233, 233); margin-top: 60px;
+margin-left: 130px;"><br>
+  <div>    <h2  style="color: rgb(100, 100, 235);font-weight: bold;margin-left: 75px;font-family: Algerian;">Modifier une Marque :</h2>
+    </div> <br><form style="margin-right: 35px;margin-left: 30px;margin-top: 30px;"> <div >
+         <label >ID Marque</label> 
+         <input readonly type="text" [(ngModel)]="currentMarque.idMq" name="idMq" class="form-control">
+         </div>  <div class="mt-3" >
+              <label >Nom Marque</label>
+               <input type="text"[(ngModel)]= "currentMarque.nomMq" name="nomMq" class="form-control">
+             </div>  <div class="mt-3" >
+                  <label >Description Marque</label>
+                   <input type="text" [(ngModel)]= "currentMarque.descriptionMq" name="descriptionMq" class="form-control">
+                 </div>  
+                  <div class="mt-3"> 
+                         <button type="submit" (click)="updateMarque()" class="btn btn-primary">Modifer</button>
+                         <br></div> <br></form> </div>

@@ -1,0 +1,11 @@
+table{
+    background: none;
+    color: blue;
+    width:100%; 
+    margin-left: -35px;
+}
+div{
+    margin-top: 15px;
+    width: 660px;
+    margin-left: 35px;
+}
